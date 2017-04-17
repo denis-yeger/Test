@@ -6,5 +6,8 @@ namespace WebApplication4
     {
         [DataMember]
         public string Name { get; set; }
+
+        [DataMember]
+        public string Email { get; set; }
     }
 }
